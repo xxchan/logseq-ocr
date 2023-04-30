@@ -1,0 +1,21 @@
+{
+  "name": "logseq-ocr",
+  "version": "0.0.1",
+  "author": "xxchan",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "^0.0.14",
+    "tesseract.js": "^4.0.3"
+  },
+  "logseq": {
+    "main": "dist/index.html",
+    "id": "logseq-ocr"
+  },
+  "scripts": {
+    "dev": "parcel watch --public-url . index.html",
+    "build": "parcel build --public-url . --no-source-maps index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
