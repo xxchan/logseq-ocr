@@ -2,7 +2,7 @@
 
 Read image from clipboard and OCR it!
 
-![demo.mov](demo.mov)
+<video src='demo.mov'></video>
 
 Credit: inspired by [@laixintao](https://github.com/laixintao) https://www.kawabangga.com/posts/4876
 
