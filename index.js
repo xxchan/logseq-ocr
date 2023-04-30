@@ -20,7 +20,8 @@ async function pocr(worker) {
 
         const ocrResult = await worker.recognize(
             data,
-            'eng',
+            {},
+            { text: true }
         )
         console.log('OCR result: ', ocrResult)
         return ocrResult.data.text
@@ -53,7 +54,7 @@ async function main() {
     logseq.Editor.registerSlashCommand(
         'OCR image from clipboard',
         async () => {
-            const text = await pocr(worker)
+            const text = await pocr(worker, lang)
             await logseq.Editor.insertAtEditingCursor(text)
         },
     )
