@@ -1,5 +1,9 @@
 # logseq-ocr
 
+> **Note**
+>
+> This plugin is available in the Logseq plugin marketplace, but you need to scroll all the way down to find it at the bottom. It's ordered by downloads.
+
 Read image from clipboard and OCR it!
 
 > **Note**
